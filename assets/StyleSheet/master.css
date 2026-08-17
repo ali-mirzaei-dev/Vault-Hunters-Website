@@ -1,5 +1,27 @@
 @import "tailwindcss";
 
+@keyframes bob {
+    50%{
+        transform: translateY(-20px);
+    }
+}
+
+@theme{
+    --animate-bob:bob 5s linear infinite;
+}
+
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* color: gainsboro; */
 }
+
+.mask1 {
+    &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: linear-gradient(to bottom, gainsboro 10%,rgba(220, 220, 220, 0.699) 70%, rgba(220, 220, 220, 0.808) 100%);
+        z-index: -1;
+    }
+}
+

@@ -11,6 +11,13 @@
     <link rel="stylesheet" href="assets/Font/FontSocials/style.css">
 
     <!-- npx @tailwindcss/cli -i ./assets/StyleSheet/master.css -o ./assets/StyleSheet/output.css --watch -->
+
+    <!-- img class="absolute h-8 bottom-full left-0"
+    src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 24'>
+        <path fill='white' d='M0,0 L264,0 C292,0 292,24 320,24 L320,28 L0,28 Z' />
+    </svg>"
+    alt=""> -->
+
 </head>
 
 <body class="h-[500vh]">
@@ -18,13 +25,13 @@
     <!--==================#1 HEADER HTML ==================-->
     <!--===================================================-->
     <header
-        class=" container flex bg-[#171717] w-[95%] rounded-[50px] px-7 justify-between items-center content-center fixed top-8 left-1/2 -translate-x-6/12 duration-75 *:text-white lg:w-[90%] xl:w-3/4 z-10">
+        class=" container flex bg-[#171717] w-[95%] rounded-[50px] px-7 justify-between items-center content-center fixed top-5 left-1/2 -translate-x-6/12 duration-75 *:text-white lg:w-[90%] xl:w-3/4 z-10">
 
         <div class="flex gap-x-16 h-full items-center ">
             <!--==================#1-1 LOGO HTML ==================-->
             <figure class=" w-7 py-2">
                 <img class="w-max h-max object-cover lg:hidde wn" src="assets/Images/vh-logo-sm-692cb48e.webp" alt="">
-                <img class="hidden w-max h-max object-cover absolute left-0 top-[50%] translate-y-[-50%] translate-x-[-5%] lg:block  lg:w-20"
+                <img class="hidden w-max h-max object-cover absolute left-0 top-[50%] translate-y-[-50%] translate-x-[-5%] lg:block lg:w-20"
                     src="assets/Images/vh-logo-lg-0eb785ac.webp" alt="">
             </figure>
 
@@ -68,12 +75,62 @@
                 <a class="mt-3.5 bg-orange-500 shadow-[inset_0px_10px_15px_-10px_#fdd995,inset_0px_40px_40px_-30px_#fdd995] lg:px-16 lg:py-3 px-11 py-2.5 rounded-full font-semibold border-2 border-black transition-all duration-300 ease-out hover:shadow-[inset_0px_4px_10px_-4px_rgba(0,0,0,0.3)] hover:translate-y-0.5"
                     href="">play now</a>
             </div>
-            <img class="absolute w-full h-8 -bottom-0.5 rotate-180" src="assets/Images/curve.svg" alt="">
+            <!-- <img class="absolute w-full h-8 -bottom-0.5 rotate-180" src="assets/Images/curve.svg" alt=""> -->
         </section>
 
         <!--==================#2-2 UPDATE 21 HTML ==================-->
-        <section class="h-[500px] w-full bg-[url(../Images/bg.svg)] bg-center bg-size-[40%_100%]">
-            <div class="flex w">
+        <section
+            class=" flex justify-center items-center w-full  bg-white bg-[linear-gradient(to_right,#0000007c_1px,transparent_1px),linear-gradient(to_bottom,#0000007c_1px,transparent_1px)] bg-size-[25px_25px] mask1 relative z-2 py-20">
+
+            <!-- top left -->
+            <img class="absolute h-8 bottom-full left-0"
+                src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 24'><path fill='gainsboro' d='M0,0 L264,0 C292,0 292,24 320,24 L320,28 L0,28 Z'/></svg>"
+                alt="">
+            <!-- top right -->
+            <img class="absolute h-8 bottom-full right-0 rotate-y-180"
+                src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 24'><path fill='gainsboro' d='M0,0 L264,0 C292,0 292,24 320,24 L320,28 L0,28 Z'/></svg>"
+                alt="">
+
+            <!-- bottom left -->
+            <img class="absolute h-8 top-full left-0 rotate-x-180"
+                src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 24'><path fill='red' d='M0,0 L264,0 C292,0 292,24 320,24 L320,28 L0,28 Z'/></svg>"
+                alt="">
+
+            <!-- bottom right -->
+            <img class="absolute h-8 top-full right-0 rotate-x-180 rotate-y-180"
+                src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 24'><path fill='red' d='M0,0 L264,0 C292,0 292,24 320,24 L320,28 L0,28 Z'/></svg>"
+                alt="">
+
+                <!-- inner box -->
+            <div
+                class="flex flex-wrap content-center justify-center w-[95%] bg-[#232323] rounded-3xl p-8 **:duration-500 xl:w-[70%]">
+
+                <figure class="hidden lg:block w-[25%] animate-bob ">
+                    <img class="h-full w-full object-cover" src="assets/Images/royale king.webp" alt="">
+                </figure>
+
+                <div class=" w-full flex flex-wrap content-center justify-center gap-2.5 md:w-[60%] lg:w-1/2">
+                    <span
+                        class="px-7 py-1 bg-orange-400 rounded-[50px] shadow-[inset_5px_0px_15px_-10px_#fdd995,inset_0px_40px_40px_-30px_#fdd995] uppercase text-[12px] font-semibold ">out
+                        now</span>
+                    <h2 class="w-full text-white text-[24px] font-bold text-center uppercase">update 21</h2>
+                    <p class="text-[14px] text-[#808080] w-full text-center sm:w-[80%] md:w-[80%]">Experience Greed!
+                        Discover etchings, modify
+                        your gear and craft your own unique items. Explore and create your own
+                        personal vault, meet new companions and finally make use of that 1 million beniotite in your
+                        storage!</p>
+                    <span
+                        class="w-full text-center uppercase font-bold text-[rgba(255,255,255,0.45)] mt-7 text-[14px] mb-5 sm:mb-3">available
+                        on
+                        curseforge</span>
+                </div>
+
+                <figure class="w-[80%] md:w-[40%] sm:w-[65%] lg:hidden animate-bob">
+                    <img class="h-full w-full object-cover" src="assets/Images/royale king.webp" alt="">
+                </figure>
+                <figure class=" hidden lg:block w-[25%] animate-[bob_5s_linear_2s_infinite]">
+                    <img class="h-full w-full object-cover" src="assets/Images/greedcauldron.webp" alt="">
+                </figure>
 
             </div>
         </section>
