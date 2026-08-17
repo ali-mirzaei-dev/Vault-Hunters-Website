@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 @keyframes bob {
-    50%{
+    50% {
         transform: translateY(-20px);
     }
 }
 
-@theme{
-    --animate-bob:bob 5s linear infinite;
+@theme {
+    --animate-bob: bob 5s linear infinite;
 }
 
 body {
@@ -20,8 +20,29 @@ body {
         content: "";
         position: absolute;
         inset: 0;
-        background-image: linear-gradient(to bottom, gainsboro 10%,rgba(220, 220, 220, 0.699) 70%, rgba(220, 220, 220, 0.808) 100%);
+        background-image: linear-gradient(to bottom, gainsboro 10%, rgba(220, 220, 220, 0.699) 70%, rgba(220, 220, 220, 0.808) 100%);
         z-index: -1;
     }
 }
 
+.mask2 {
+    &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.048) 10%, rgba(0, 0, 0, 0.329) 70%, black 100%);
+        z-index: -1;
+        border-radius: 24px;
+    }
+}
+
+.mask3 {
+    &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(circle at center, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.05) 20%, transparent 70%);
+        z-index: -1;
+        border-radius: 24px;
+    }
+}
