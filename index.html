@@ -11,21 +11,13 @@
     <link rel="stylesheet" href="assets/Font/FontSocials/style.css">
 
     <!-- npx @tailwindcss/cli -i ./assets/StyleSheet/master.css -o ./assets/StyleSheet/output.css --watch -->
-
-    <!-- img class="absolute h-8 bottom-full left-0"
-    src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 24'>
-        <path fill='white' d='M0,0 L264,0 C292,0 292,24 320,24 L320,28 L0,28 Z' />
-    </svg>"
-    alt=""> -->
-
 </head>
 
 <body class="h-[1000vh]">
 
     <!--==================#1 HEADER HTML ==================-->
     <!--===================================================-->
-    <header
-        class=" container flex bg-[#171717] w-[95%] rounded-[50px] px-7 justify-between items-center content-center fixed top-5 left-1/2 -translate-x-6/12 duration-75 *:text-white lg:w-[90%] xl:w-3/4 z-10">
+    <header class=" container flex bg-[#171717] w-[95%] rounded-[50px] px-7 justify-between items-center content-center fixed top-5 left-1/2 -translate-x-6/12 duration-75 *:text-white lg:w-[90%] xl:w-3/4 z-10 **:duration-500">
 
         <div class="flex gap-x-16 h-full items-center ">
             <!--==================#1-1 LOGO HTML ==================-->
@@ -60,7 +52,7 @@
 
     <!--==================#2 CONTENT HTML ==================-->
     <!--====================================================-->
-    <main class="flex flex-wrap content-start ">
+    <main class="flex flex-wrap content-start justify-center **:duration-500">
 
         <!--==================#2-1 HERO HTML ==================-->
         <section class="flex h-svh w-full border-2 relative">
@@ -72,14 +64,12 @@
                         src="assets/Images/vh-logo-lg-0eb785ac.webp" alt=""></figure>
                 <h1 class="text-white font-bold w-full text-[20px] lg:text-[24px]">Third Edition: Update 21</h1>
                 <span class=" text-[#d4d4d4] w-full capitalize!">Available Now</span>
-                <a class="mt-3.5 bg-orange-500 shadow-[inset_0px_10px_15px_-10px_#fdd995,inset_0px_40px_40px_-30px_#fdd995] lg:px-16 lg:py-3 px-11 py-2.5 rounded-full font-semibold border-2 border-black transition-all duration-300 ease-out hover:shadow-[inset_0px_4px_10px_-4px_rgba(0,0,0,0.3)] hover:translate-y-0.5"
-                    href="">play now</a>
+                <a class="mt-3.5 bg-orange-500 shadow-[inset_0px_10px_15px_-10px_#fdd995,inset_0px_40px_40px_-30px_#fdd995] lg:px-16 lg:py-3 px-11 py-2.5 rounded-full font-semibold border-2 border-black transition-all duration-300 ease-out hover:shadow-[inset_0px_4px_10px_-4px_rgba(0,0,0,0.3)] hover:translate-y-0.5" href="">play now</a>
             </div>
         </section>
 
         <!--==================#2-2 UPDATE 21 HTML ==================-->
-        <section
-            class=" flex justify-center items-center w-full  bg-white bg-[linear-gradient(to_right,#0000007c_1px,transparent_1px),linear-gradient(to_bottom,#0000007c_1px,transparent_1px)] bg-size-[25px_25px] mask1 relative z-2 py-20">
+        <section class=" flex justify-center items-center w-full  bg-white bg-[linear-gradient(to_right,#0000007c_1px,transparent_1px),linear-gradient(to_bottom,#0000007c_1px,transparent_1px)] bg-size-[25px_25px] mask1 relative z-2 py-20 **:duration-500">
 
             <!-- top left -->
             <img class="absolute h-8 bottom-full left-0"
@@ -92,12 +82,12 @@
 
             <!-- bottom left -->
             <img class="absolute h-8 top-full left-0 rotate-x-180"
-                src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 24'><path fill='red' d='M0,0 L264,0 C292,0 292,24 320,24 L320,28 L0,28 Z'/></svg>"
+                src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 24'><path fill='' d='M0,0 L264,0 C292,0 292,24 320,24 L320,28 L0,28 Z'/></svg>"
                 alt="">
 
             <!-- bottom right -->
             <img class="absolute h-8 top-full right-0 rotate-x-180 rotate-y-180"
-                src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 24'><path fill='red' d='M0,0 L264,0 C292,0 292,24 320,24 L320,28 L0,28 Z'/></svg>"
+                src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 24'><path fill='' d='M0,0 L264,0 C292,0 292,24 320,24 L320,28 L0,28 Z'/></svg>"
                 alt="">
 
             <!-- inner box -->
@@ -134,8 +124,18 @@
             </div>
         </section>
 
-        <!--==================#2-3 LOOT HTML ==================-->
-        <section class=" flex justify-center items-center w-full bg-[#121212]  relative z-2 py-20 mask3">
+        <!--==================#2-3 OVERVIEW HTML ==================-->
+        <section class=" flex justify-center items-center w-full bg-[#121212]  relative z-2 py-20 mask3 **:duration-500">
+
+            <!-- bottom left -->
+            <img class="absolute h-8 top-full left-0 rotate-x-180"
+                src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 24'><path fill='%23121212' d='M0,0 L264,0 C292,0 292,24 320,24 L320,28 L0,28 Z'/></svg>"
+                alt="">
+
+            <!-- bottom right -->
+            <img class="absolute h-8 top-full right-0 rotate-x-180 rotate-y-180"
+                src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 24'><path fill='%23121212' d='M0,0 L264,0 C292,0 292,24 320,24 L320,28 L0,28 Z'/></svg>"
+                alt="">
 
             <!-- inner box -->
             <div
@@ -159,7 +159,7 @@
         </section>
 
         <!--==================#2-4 MEET HTML ==================-->
-        <section class="flex flex-wrap justify-center items-center w-full relative bg-[#181818] bg-[url(../Images/dark_textured-1924b825.webp)] bg-center bg-cover overflow-x-clip">
+        <section class="flex justify-center items-center w-full relative bg-[#181818] bg-[url(../Images/dark_textured-1924b825.webp)] bg-center bg-cover overflow-x-clip **:duration-500">
 
             <div class="2xl:container flex flex-wrap justify-center items-center py-20 px-5 gap-20 sm:gap-32 md:gap-50 overflow-x-clip">
                 <div class="w-full flex flex-wrap justify-center *:text-center  gap-2.5 *:duration-200 ">
@@ -793,7 +793,13 @@
         </section>
 
         <!--==================#2-5 SKILLS HTML ==================-->
-        <section class="flex flex-wrap justify-center items-start w-full bg-[#121212] relative z-2 mask3 overflow-x-clip">
+        <section class="flex justify-center items-start w-full bg-[#121212] relative z-2 mask3 overflow-x-clip **:duration-500">
+
+            <!-- bottom left -->
+            <img class="hidden md:block absolute h-8 top-full left-0 rotate-x-180" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 24'><path fill='%23121212' d='M0,0 L264,0 C292,0 292,24 320,24 L320,28 L0,28 Z'/></svg>" alt="">
+
+            <!-- bottom right -->
+            <img class="hidden md:block absolute h-8 top-full right-0 rotate-x-180 rotate-y-180" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 24'><path fill='%23121212' d='M0,0 L264,0 C292,0 292,24 320,24 L320,28 L0,28 Z'/></svg>" alt="">
 
             <!-- container -->
             <div class="2xl:container flex flex-wrap justify-center items-start py-20 md:px-5 lg:px-16 gap-5 lg:gap-0">
@@ -988,6 +994,45 @@
                 </div>
             </div>
 
+        </section>
+
+        <!--==================#- PATCH NOTES HTML ==================-->
+        <section class="w-full flex justify-center items-center bg-[#181818] bg-[url(../Images/dark_textured-1924b825.webp)] bg-center bg-cover **:duration-500">
+
+            <!-- container -->
+            <div class="2xl:container h-full flex flex-wrap py-12 gap-2.5 ">
+
+                <!-- patch notes -->
+                <div class="w-full flex flex-wrap justify-center content-start *:text-center gap-2.5 px-2.5 ">
+                    <span class="px-7 py-1 bg-orange-400 shadow-inner shadow-[#fdd995] rounded-[50px] uppercase text-[12px] font-semibold">patch notes</span>
+                    <h3 class="w-full text-white text-[24px] font-bold uppercase md:text-[42px]  ">stay up to date</h3>
+                    <p class="text-[#808080] w-full lg:text=[20px] lg:w-4/5">keep track of the latest changes, fixes, and new features.</p>
+                </div>
+
+                <!-- versions -->
+                <div class="w-full flex flex-wrap justify-center content-center gap-3 px-7 lg:gap-6 *:w-full *:flex *:flex-wrap *:gap-2.5 *:border *:rounded-xl *:border-[gray] *:p-4 *:relative *:z-2 *:lg:w-[30%] *:lg:max-w-88.25 lg:*:**:nth-[2]:mb-20">
+                    <div class="*:w-full mask5">
+                        <span class="text-orange-400 text-[22px] uppercase font-bold ">v200.0</span>
+                        <span class="text-[14px] text-[#808080] ">Vault Hunters Remastered gives a fresh new look to Talents, and revamps lots of Abilities!</span>
+                        <span class="uppercase text-[#525252] text-[13px] ">jul 22, 2026</span>
+                    </div>
+                    <div class="*:w-full mask5">
+                        <span class="text-orange-400 text-[22px] uppercase font-bold">v100.0</span>
+                        <span class="text-[14px] text-[#808080] ">Remastered Edition</span>
+                        <span class="uppercase text-[#525252] text-[13px] ">apr 23, 2026</span>
+                    </div>
+                    <div class="*:w-full mask5">
+                        <span class="text-orange-400 text-[22px] uppercase font-bold">v21.5.0</span>
+                        <span class="text-[14px] text-[#808080] ">Hotfix for Update 21</span>
+                        <span class="uppercase text-[#525252] text-[13px] ">apr 19, 2026</span>
+                    </div>
+                </div>
+
+                <!-- button -->
+                <div class="w-full flex justify-center">
+                    <a class="mt-2.5 transform transition-all block duration-300 ease-out bg-orange-500 shadow-[inset_0px_10px_15px_-10px_#fdd995,inset_0px_40px_40px_-30px_#fdd995] lg:px-16 lg:py-3 px-6 py-1 rounded-full font-semibold border-2 border-black hover:shadow-[inset_0px_4px_10px_-4px_rgba(0,0,0,0.3)] hover:translate-y-1 hover:bg-orange-400" href="">view all patch notes</a>
+                </div>
+            </div>
         </section>
     </main>
 </body>

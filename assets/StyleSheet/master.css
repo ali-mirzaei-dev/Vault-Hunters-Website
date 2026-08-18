@@ -108,6 +108,20 @@ body {
     }
 }
 
+.mask5 {
+    &::after {
+        content: "";
+        position: absolute;
+        border-radius: 12px;
+        inset: 0;
+        background-image: linear-gradient(to bottom,
+                rgba(0, 0, 0, 0.048) 40%,
+                rgba(0, 0, 0, 0.356) 75%,
+                rgba(0, 0, 0, 0.76) 100%);
+        z-index: -1;
+    }
+}
+
 .circle-item {
     position: absolute;
     top: 50%;
@@ -118,6 +132,7 @@ body {
 .wheel:has(figure:hover) figure {
     filter: blur(3px);
 }
-.wheel:has(figure:hover) figure:hover{
+
+.wheel:has(figure:hover) figure:hover {
     filter: blur(0);
 }
