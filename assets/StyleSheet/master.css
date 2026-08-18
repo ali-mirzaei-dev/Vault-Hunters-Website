@@ -10,6 +10,20 @@
     --animate-bob: bob 5s linear infinite;
 }
 
+@keyframes swipe {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-2120px);
+    }
+}
+
+@theme {
+    --animate-swipe: swipe 30s linear infinite;
+}
+
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* color: gainsboro; */
@@ -44,5 +58,16 @@ body {
         background: radial-gradient(circle at center, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.05) 20%, transparent 70%);
         z-index: -1;
         border-radius: 24px;
+    }
+}
+
+.mask4 {
+    &::after {
+        content: "";
+        position: absolute;
+        border-radius: 24px;
+        inset: 0;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.048) 10%, rgba(0, 0, 0, 0.671) 30%, black 35%);
+        z-index: -1;
     }
 }
