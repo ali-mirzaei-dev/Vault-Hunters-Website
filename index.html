@@ -20,7 +20,7 @@
 
 </head>
 
-<body class="h-[500vh]">
+<body class="h-[1000vh]">
 
     <!--==================#1 HEADER HTML ==================-->
     <!--===================================================-->
@@ -75,7 +75,6 @@
                 <a class="mt-3.5 bg-orange-500 shadow-[inset_0px_10px_15px_-10px_#fdd995,inset_0px_40px_40px_-30px_#fdd995] lg:px-16 lg:py-3 px-11 py-2.5 rounded-full font-semibold border-2 border-black transition-all duration-300 ease-out hover:shadow-[inset_0px_4px_10px_-4px_rgba(0,0,0,0.3)] hover:translate-y-0.5"
                     href="">play now</a>
             </div>
-            <!-- <img class="absolute w-full h-8 -bottom-0.5 rotate-180" src="assets/Images/curve.svg" alt=""> -->
         </section>
 
         <!--==================#2-2 UPDATE 21 HTML ==================-->
@@ -160,635 +159,835 @@
         </section>
 
         <!--==================#2-4 MEET HTML ==================-->
-        <section class="flex flex-wrap justify-center items-center w-full bg-[#181818] bg-[url(../Images/dark_textured-1924b825.webp)] bg-center bg-cover py-20 px-5 gap-50 overflow-hidden">
+        <section class="flex flex-wrap justify-center items-center w-full relative bg-[#181818] bg-[url(../Images/dark_textured-1924b825.webp)] bg-center bg-cover overflow-x-clip">
 
-            <div class="w-full flex flex-wrap justify-center *:text-center  gap-2.5 *:duration-200 ">
-                <span class="px-7 py-1 bg-orange-400 rounded-[50px] shadow-[inset_5px_0px_15px_-10px_#fdd995,inset_0px_40px_40px_-30px_#fdd995] uppercase text-[12px] font-semibold">moss</span>
-                <h3 class="w-full text-white text-[24px] font-bold uppercase md:text-[30px]  "> MEET YOUR ENEMIES</h3>
-                <p class="text-[#808080] w-full mb-8 md:mb-5 md:text=[20px] md:w-1/2 lg:w-[40%]">Encounter dangerous mobs with unique abilities and attack patterns as you venture deeper into the vault depths. Each enemy presents distinct challenges.</p>
+            <div class="2xl:container flex flex-wrap justify-center items-center py-20 px-5 gap-20 sm:gap-32 md:gap-50 overflow-x-clip">
+                <div class="w-full flex flex-wrap justify-center *:text-center  gap-2.5 *:duration-200 ">
+                    <span class="px-7 py-1 bg-orange-400 rounded-[50px] shadow-[inset_5px_0px_15px_-10px_#fdd995,inset_0px_40px_40px_-30px_#fdd995] uppercase text-[12px] font-semibold">moss</span>
+                    <h3 class="w-full text-white text-[24px] font-bold uppercase md:text-[42px]  "> MEET YOUR ENEMIES</h3>
+                    <p class="text-[#808080] w-full mb-8 md:mb-5 md:text=[20px] md:w-1/2 lg:w-[40%]">Encounter dangerous mobs with unique abilities and attack patterns as you venture deeper into the vault depths. Each enemy presents distinct challenges.</p>
+                </div>
+
+                <div class="w-full flex justify-start items-center gap-4 *:shrink-0 animate-swipe hover:[animation-play-state:paused] pr-4 *:duration-500 *:hover:-translate-y-2.5 *:hover:scale-[1.05] scale-[0.8] md:scale-[0.9] lg:scale-[1]">
+                    <!-- f1 -->
+                    <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group ">
+
+                        <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/overgrown_zombie_t4-3f0ed709.webp" alt="">
+                        <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">overgrown</h6>
+                        <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
+
+                        <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
+                            <h6 class="text-white text-[20px] uppercase font-bold">overgrown</h6>
+                            <span class="text-[gray] text-[14px]"> Spawn in large groups but are easy to defeat. Individuals waek but dangerous in numbers.</span>
+                            <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
+                                <div>
+                                    <span>damage</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>health</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>speed</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <!-- f2 -->
+                    <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
+
+                        <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/ashen_horde_t2-9902eedb.webp" alt="">
+                        <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">rockling</h6>
+                        <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
+
+                        <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
+                            <h6 class="text-white text-[20px] uppercase font-bold">rockling</h6>
+                            <span class="text-[gray] text-[14px]"> Tougher than typical horde mobs. Can take more hits than most enemies of their type.</span>
+                            <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
+                                <div>
+                                    <span>damage</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>health</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>speed</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <!-- f3 -->
+                    <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
+
+                        <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/deathcap-7e458930.webp" alt="">
+                        <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">deathcap</h6>
+                        <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
+
+                        <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
+                            <h6 class="text-white text-[20px] uppercase font-bold">deathcap</h6>
+                            <span class="text-[gray] text-[14px]"> Periodically spawns maller smoicaps. Can overwhelm player if ignored.</span>
+                            <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
+                                <div>
+                                    <span>damage</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>health</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>speed</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <!-- f4 -->
+                    <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
+
+                        <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/shiver-2bd1291a.webp" alt="">
+                        <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">shiver</h6>
+                        <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
+
+                        <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
+                            <h6 class="text-white text-[20px] uppercase font-bold">shiver</h6>
+                            <span class="text-[gray] text-[14px]">Applies freeze on hit. Slows player for a short time, hindering their scape.</span>
+                            <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
+                                <div>
+                                    <span>damage</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>health</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>speed</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <!-- f5 -->
+                    <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
+
+                        <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/skeleton_pirate_t2-0449cc41.webp" alt="">
+                        <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">pirateon</h6>
+                        <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
+
+                        <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
+                            <h6 class="text-white text-[20px] uppercase font-bold">pirateon</h6>
+                            <span class="text-[gray] text-[14px]"> Fast melee skeleton armed with a sword. More aggresive than standard skeleton.</span>
+                            <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
+                                <div>
+                                    <span>damage</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>health</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>speed</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <!-- f6 -->
+                    <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
+
+                        <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/levishroom-abcbabfa.webp" alt="">
+                        <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">levishroom</h6>
+                        <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
+
+                        <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
+                            <h6 class="text-white text-[20px] uppercase font-bold">levishroom</h6>
+                            <span class="text-[gray] text-[14px]"> Applies levitation on hit. Targets float briefly and lose movement control.</span>
+                            <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
+                                <div>
+                                    <span>damage</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>health</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>speed</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <!-- f7 -->
+                    <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
+
+                        <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/dweller-2e1f0682.webp" alt="">
+                        <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">dweler</h6>
+                        <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
+
+                        <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
+                            <h6 class="text-white text-[20px] uppercase font-bold">dweler</h6>
+                            <span class="text-[gray] text-[14px]"> Spawns in smaller numbers but deal high damage. They often emerge from trapped chests.</span>
+                            <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
+                                <div>
+                                    <span>damage</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>health</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>speed</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+
+
+                    <!-- f1 -->
+                    <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
+
+                        <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/overgrown_zombie_t4-3f0ed709.webp" alt="">
+                        <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">overgrown</h6>
+                        <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
+
+                        <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
+                            <h6 class="text-white text-[20px] uppercase font-bold">overgrown</h6>
+                            <span class="text-[gray] text-[14px]"> Spawn in large groups but are easy to defeat. Individuals waek but dangerous in numbers.</span>
+                            <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
+                                <div>
+                                    <span>damage</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>health</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>speed</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <!-- f2 -->
+                    <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
+
+                        <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/ashen_horde_t2-9902eedb.webp" alt="">
+                        <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">rockling</h6>
+                        <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
+
+                        <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
+                            <h6 class="text-white text-[20px] uppercase font-bold">rockling</h6>
+                            <span class="text-[gray] text-[14px]"> Tougher than typical horde mobs. Can take more hits than most enemies of their type.</span>
+                            <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
+                                <div>
+                                    <span>damage</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>health</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>speed</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <!-- f3 -->
+                    <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
+
+                        <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/deathcap-7e458930.webp" alt="">
+                        <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">deathcap</h6>
+                        <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
+
+                        <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
+                            <h6 class="text-white text-[20px] uppercase font-bold">deathcap</h6>
+                            <span class="text-[gray] text-[14px]"> Periodically spawns maller smoicaps. Can overwhelm player if ignored.</span>
+                            <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
+                                <div>
+                                    <span>damage</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>health</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>speed</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <!-- f4 -->
+                    <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
+
+                        <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/shiver-2bd1291a.webp" alt="">
+                        <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">shiver</h6>
+                        <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
+
+                        <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
+                            <h6 class="text-white text-[20px] uppercase font-bold">shiver</h6>
+                            <span class="text-[gray] text-[14px]">Applies freeze on hit. Slows player for a short time, hindering their scape.</span>
+                            <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
+                                <div>
+                                    <span>damage</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>health</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>speed</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <!-- f5 -->
+                    <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
+
+                        <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/skeleton_pirate_t2-0449cc41.webp" alt="">
+                        <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">pirateon</h6>
+                        <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
+
+                        <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
+                            <h6 class="text-white text-[20px] uppercase font-bold">pirateon</h6>
+                            <span class="text-[gray] text-[14px]"> Fast melee skeleton armed with a sword. More aggresive than standard skeleton.</span>
+                            <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
+                                <div>
+                                    <span>damage</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>health</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>speed</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <!-- f6 -->
+                    <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
+
+                        <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/levishroom-abcbabfa.webp" alt="">
+                        <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">levishroom</h6>
+                        <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
+
+                        <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
+                            <h6 class="text-white text-[20px] uppercase font-bold">levishroom</h6>
+                            <span class="text-[gray] text-[14px]"> Applies levitation on hit. Targets float briefly and lose movement control.</span>
+                            <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
+                                <div>
+                                    <span>damage</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>health</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>speed</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <!-- f7 -->
+                    <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
+
+                        <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/dweller-2e1f0682.webp" alt="">
+                        <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">dweler</h6>
+                        <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
+
+                        <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
+                            <h6 class="text-white text-[20px] uppercase font-bold">dweler</h6>
+                            <span class="text-[gray] text-[14px]"> Spawns in smaller numbers but deal high damage. They often emerge from trapped chests.</span>
+                            <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
+                                <div>
+                                    <span>damage</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>health</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span>speed</span>
+                                    <div class="text-[12px]">
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                        <i class="icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
             </div>
 
+        </section>
 
-            <div class="w-full flex justify-start items-center gap-4 *:shrink-0 animate-swipe hover:[animation-play-state:paused] pr-4 *:duration-500 *:hover:-translate-y-2.5 *:hover:scale-[1.05] scale-[0.8] md:scale-[0.9] lg:scale-[1]">
-                <!-- f1 -->
-                <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group ">
+        <!--==================#2-5 SKILLS HTML ==================-->
+        <section class="flex flex-wrap justify-center items-start w-full bg-[#121212] relative z-2 mask3 overflow-x-clip">
 
-                    <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/overgrown_zombie_t4-3f0ed709.webp" alt="">
-                    <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">overgrown</h6>
-                    <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
+            <!-- container -->
+            <div class="2xl:container flex flex-wrap justify-center items-start py-20 md:px-5 lg:px-16 gap-5 lg:gap-0">
 
-                    <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
-                        <h6 class="text-white text-[20px] uppercase font-bold">overgrown</h6>
-                        <span class="text-[gray] text-[14px]"> Spawn in large groups but are easy to defeat. Individuals waek but dangerous in numbers.</span>
-                        <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
-                            <div>
-                                <span>damage</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>health</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>speed</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
+                <!-- skills + desc LG -->
+                <div class="w-full flex flex-wrap content-start gap-12 lg:w-1/2">
+
+                    <!-- skills -->
+                    <div class="w-full flex flex-wrap justify-center *:text-center lg:justify-start *:lg:text-start gap-2.5 px-2.5">
+                        <span class="px-7 py-1 bg-orange-400 shadow-inner shadow-[#fdd995] rounded-[50px] uppercase text-[12px] font-semibold">skills</span>
+                        <h3 class="w-full text-white text-[24px] font-bold uppercase md:text-[42px]  ">explore 150+ skills</h3>
+                        <p class="text-[#808080] w-full lg:text=[20px] lg:w-4/5">Master diverse abilities, spells, and perks to customize your playstyle and conquer the vault.</p>
+                    </div>
+
+                    <!-- descriptions -->
+                    <div class="w-full flex-wrap justify-center *:text-center md:justify-start *:lg:text-start gap-2.5 gap-y-5 px-2.5 hidden mt-5 lg:flex">
+                        <span class="px-4 py-1 bg-orange-400 shadow-inner shadow-[#fdd995] rounded-[50px] uppercase text-[12px] font-semibold">abilities</span>
+                        <span class="px-4 py-1 bg-orange-400 shadow-inner shadow-[#fdd995] rounded-[50px] uppercase text-[12px] font-semibold">talents</span>
+                        <span class="px-4 py-1 bg-orange-400 shadow-inner shadow-[#fdd995] rounded-[50px] uppercase text-[12px] font-semibold">expertise</span>
+                        <span class="px-4 py-1 bg-orange-400 shadow-inner shadow-[#fdd995] rounded-[50px] uppercase text-[12px] font-semibold">prestige powers</span>
+                        <p class="text-[#808080] text-[14px] w-full mb-8 md:mb-5 md:text=[20px] lg:w-4/5">Abilities typically focus on giving you powerful active skills that significantly change how you play the game; ranging from damaging abilities like Nova or Rampage, healing abilities like Heal and Totem, and survivability abilities such as Dash and Ghost Walk. Every ability can also be specialised - either subtly changing their effect, or completely revamping it. As you progress through Vault Hunters you get to select the abilities that most suit your playstyle!</p>
+                    </div>
+                </div>
+
+                <!-- wheel -->
+                <div class="wheel w-full lg:w-1/2 relative h-120 overflow-visible">
+
+                    <!-- inner wheel -->
+                    <div class=" absolute inset-0 animate-rotato1 pointer-events-none group:">
+
+                        <!-- Item 1 -->
+                        <div class="circle-item " style="transform: translate(-50%, -50%) rotate(0deg) translateX(100px) rotate(0deg)">
+                            <figure class=" w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter1 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500 group-hover:blur-sm">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/battle_cry.png" alt="">
+                            </figure>
                         </div>
-                    </figcaption>
-                </figure>
-                <!-- f2 -->
-                <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
 
-                    <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/ashen_horde_t2-9902eedb.webp" alt="">
-                    <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">rockling</h6>
-                    <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
-
-                    <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
-                        <h6 class="text-white text-[20px] uppercase font-bold">rockling</h6>
-                        <span class="text-[gray] text-[14px]"> Tougher than typical horde mobs. Can take more hits than most enemies of their type.</span>
-                        <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
-                            <div>
-                                <span>damage</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>health</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>speed</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
+                        <!-- Item 2 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(51.4deg) translateX(100px) rotate(-51.4deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg  animate-counter1 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/fireball.png" alt="">
+                            </figure>
                         </div>
-                    </figcaption>
-                </figure>
-                <!-- f3 -->
-                <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
 
-                    <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/deathcap-7e458930.webp" alt="">
-                    <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">deathcap</h6>
-                    <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
-
-                    <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
-                        <h6 class="text-white text-[20px] uppercase font-bold">deathcap</h6>
-                        <span class="text-[gray] text-[14px]"> Periodically spawns maller smoicaps. Can overwhelm player if ignored.</span>
-                        <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
-                            <div>
-                                <span>damage</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>health</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>speed</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
+                        <!-- Item 3 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(102.8deg) translateX(100px) rotate(-102.8deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter1 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/smite_hand2.png" alt="">
+                            </figure>
                         </div>
-                    </figcaption>
-                </figure>
-                <!-- f4 -->
-                <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
 
-                    <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/shiver-2bd1291a.webp" alt="">
-                    <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">shiver</h6>
-                    <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
-
-                    <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
-                        <h6 class="text-white text-[20px] uppercase font-bold">shiver</h6>
-                        <span class="text-[gray] text-[14px]">Applies freeze on hit. Slows player for a short time, hindering their scape.</span>
-                        <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
-                            <div>
-                                <span>damage</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>health</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>speed</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
+                        <!-- Item 4 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(154.2deg) translateX(100px) rotate(-154.2deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter1 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/vein_miner.png" alt="">
+                            </figure>
                         </div>
-                    </figcaption>
-                </figure>
-                <!-- f5 -->
-                <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
 
-                    <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/skeleton_pirate_t2-0449cc41.webp" alt="">
-                    <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">pirateon</h6>
-                    <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
-
-                    <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
-                        <h6 class="text-white text-[20px] uppercase font-bold">pirateon</h6>
-                        <span class="text-[gray] text-[14px]"> Fast melee skeleton armed with a sword. More aggresive than standard skeleton.</span>
-                        <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
-                            <div>
-                                <span>damage</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>health</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>speed</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
+                        <!-- Item 5 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(205.7deg) translateX(100px) rotate(-205.7deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter1 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/nova.png" alt="">
+                            </figure>
                         </div>
-                    </figcaption>
-                </figure>
-                <!-- f6 -->
-                <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
 
-                    <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/levishroom-abcbabfa.webp" alt="">
-                    <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">levishroom</h6>
-                    <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
-
-                    <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
-                        <h6 class="text-white text-[20px] uppercase font-bold">levishroom</h6>
-                        <span class="text-[gray] text-[14px]"> Applies levitation on hit. Targets float briefly and lose movement control.</span>
-                        <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
-                            <div>
-                                <span>damage</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>health</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>speed</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
+                        <!-- Item 6 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(257.1deg) translateX(100px) rotate(-257.1deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter1 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/ghost_walk.png" alt="">
+                            </figure>
                         </div>
-                    </figcaption>
-                </figure>
-                <!-- f7 -->
-                <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
 
-                    <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/dweller-2e1f0682.webp" alt="">
-                    <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">dweler</h6>
-                    <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
-
-                    <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
-                        <h6 class="text-white text-[20px] uppercase font-bold">dweler</h6>
-                        <span class="text-[gray] text-[14px]"> Spawns in smaller numbers but deal high damage. They often emerge from trapped chests.</span>
-                        <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
-                            <div>
-                                <span>damage</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>health</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>speed</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
+                        <!-- Item 7 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(308.5deg) translateX(100px) rotate(-308.5deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter1 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/thunderstorm.png" alt="">
+                            </figure>
                         </div>
-                    </figcaption>
-                </figure>
+                    </div>
 
+                    <!-- outer wheel -->
+                    <div class=" absolute inset-0 animate-rotato2 pointer-events-none">
 
-                <!-- f1 -->
-                <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
-
-                    <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/overgrown_zombie_t4-3f0ed709.webp" alt="">
-                    <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">overgrown</h6>
-                    <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
-
-                    <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
-                        <h6 class="text-white text-[20px] uppercase font-bold">overgrown</h6>
-                        <span class="text-[gray] text-[14px]"> Spawn in large groups but are easy to defeat. Individuals waek but dangerous in numbers.</span>
-                        <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
-                            <div>
-                                <span>damage</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>health</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>speed</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
+                        <!-- Item 1 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(0deg) translateX(200px) rotate(0deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter2 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/arcane.png" alt="">
+                            </figure>
                         </div>
-                    </figcaption>
-                </figure>
-                <!-- f2 -->
-                <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
 
-                    <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/ashen_horde_t2-9902eedb.webp" alt="">
-                    <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">rockling</h6>
-                    <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
-
-                    <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
-                        <h6 class="text-white text-[20px] uppercase font-bold">rockling</h6>
-                        <span class="text-[gray] text-[14px]"> Tougher than typical horde mobs. Can take more hits than most enemies of their type.</span>
-                        <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
-                            <div>
-                                <span>damage</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>health</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>speed</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
+                        <!-- Item 2 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(25.7deg) translateX(200px) rotate(-25.7deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter2 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/dash.png" alt="">
+                            </figure>
                         </div>
-                    </figcaption>
-                </figure>
-                <!-- f3 -->
-                <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
 
-                    <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/deathcap-7e458930.webp" alt="">
-                    <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">deathcap</h6>
-                    <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
-
-                    <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
-                        <h6 class="text-white text-[20px] uppercase font-bold">deathcap</h6>
-                        <span class="text-[gray] text-[14px]"> Periodically spawns maller smoicaps. Can overwhelm player if ignored.</span>
-                        <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
-                            <div>
-                                <span>damage</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>health</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>speed</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
+                        <!-- Item 3 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(51.4deg) translateX(200px) rotate(-51.4deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter2 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/nova.png" alt="">
+                            </figure>
                         </div>
-                    </figcaption>
-                </figure>
-                <!-- f4 -->
-                <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
 
-                    <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/shiver-2bd1291a.webp" alt="">
-                    <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">shiver</h6>
-                    <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
-
-                    <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
-                        <h6 class="text-white text-[20px] uppercase font-bold">shiver</h6>
-                        <span class="text-[gray] text-[14px]">Applies freeze on hit. Slows player for a short time, hindering their scape.</span>
-                        <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
-                            <div>
-                                <span>damage</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>health</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>speed</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
+                        <!-- Item 4 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(77.1deg) translateX(200px) rotate(-77.1deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter2 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/empower.png" alt="">
+                            </figure>
                         </div>
-                    </figcaption>
-                </figure>
-                <!-- f5 -->
-                <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
 
-                    <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/skeleton_pirate_t2-0449cc41.webp" alt="">
-                    <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">pirateon</h6>
-                    <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
-
-                    <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
-                        <h6 class="text-white text-[20px] uppercase font-bold">pirateon</h6>
-                        <span class="text-[gray] text-[14px]"> Fast melee skeleton armed with a sword. More aggresive than standard skeleton.</span>
-                        <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
-                            <div>
-                                <span>damage</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>health</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>speed</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
+                        <!-- Item 5 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(102.8deg) translateX(200px) rotate(-102.8deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter2 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/heal.png" alt="">
+                            </figure>
                         </div>
-                    </figcaption>
-                </figure>
-                <!-- f6 -->
-                <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
 
-                    <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/levishroom-abcbabfa.webp" alt="">
-                    <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">levishroom</h6>
-                    <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
-
-                    <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
-                        <h6 class="text-white text-[20px] uppercase font-bold">levishroom</h6>
-                        <span class="text-[gray] text-[14px]"> Applies levitation on hit. Targets float briefly and lose movement control.</span>
-                        <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
-                            <div>
-                                <span>damage</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>health</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>speed</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
+                        <!-- Item 6 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(128.5deg) translateX(200px) rotate(-128.5deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter2 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/hunter.png" alt="">
+                            </figure>
                         </div>
-                    </figcaption>
-                </figure>
-                <!-- f7 -->
-                <figure class="flex items-end w-71.25 h-92.5 relative border border-[#808080a8] rounded-3xl z-2 group">
 
-                    <img class=" w-full h-[150%] object-cover object-bottom absolute bottom-0 left-0 z-3 pointer-events-none" src="assets/Images/dweller-2e1f0682.webp" alt="">
-                    <h6 class="text-white text-[20px] uppercase font-bold hidden absolute bottom-2.5 left-2.5 duration-300 lg:block lg:group-hover:hidden">dweler</h6>
-                    <div class="mask4 w-full h-1/2 absolute bottom-0 left-"></div>
-
-                    <figcaption class="w-full h-1/2 flex flex-wrap content-center gap-2.5 relative rounded-b-3xl z-10 mask4 px-4 pb-6 duration-300 origin-bottom  lg:scale-y-0 lg:opacity-0 lg:group-hover:scale-y-100 lg:group-hover:opacity-100">
-                        <h6 class="text-white text-[20px] uppercase font-bold">dweler</h6>
-                        <span class="text-[gray] text-[14px]"> Spawns in smaller numbers but deal high damage. They often emerge from trapped chests.</span>
-                        <div class="w-full flex flex-wrap gap-1 content-center *:flex *:items-center *:justify-between *:uppercase *:text-[#ffffffad] *:w-full *:text-[15px]">
-                            <div>
-                                <span>damage</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>health</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span>speed</span>
-                                <div class="text-[12px]">
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                    <i class="icon"></i>
-                                </div>
-                            </div>
+                        <!-- Item 7 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(154.2deg) translateX(200px) rotate(-154.2deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter2 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/ice_bolt.png" alt="">
+                            </figure>
                         </div>
-                    </figcaption>
-                </figure>
+
+                        <!-- Item 8 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(179.9deg) translateX(200px) rotate(-179.9deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter2 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/javelin.png" alt="">
+                            </figure>
+                        </div>
+
+                        <!-- Item 9 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(205.6deg) translateX(200px) rotate(-205.6deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter2 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/mana_shield.png" alt="">
+                            </figure>
+                        </div>
+
+                        <!-- Item 10 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(231.3deg) translateX(200px) rotate(-231.3deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter2 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/mega_jump.png" alt="">
+                            </figure>
+                        </div>
+
+                        <!-- Item 11 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(257deg) translateX(200px) rotate(-257deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter2 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/rampage.png" alt="">
+                            </figure>
+                        </div>
+
+                        <!-- Item 12 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(282.7deg) translateX(200px) rotate(-282.7deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter2 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/shell.png" alt="">
+                            </figure>
+                        </div>
+
+                        <!-- Item 13 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(308.4deg) translateX(200px) rotate(-308.4deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter2 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/stonefall.png" alt="">
+                            </figure>
+                        </div>
+
+                        <!-- Item 14 -->
+                        <div class="circle-item" style="transform: translate(-50%, -50%) rotate(334.1deg) translateX(200px) rotate(-334.1deg)">
+                            <figure class="w-12 h-12 bg-[#1a1a1a] flex justify-center items-center rounded-lg animate-counter2 duration-500 pointer-events-auto hover:scale-120 hover:bg-amber-500">
+                                <img class="w-8 h-8 object-cover" src="assets/Images/taunt.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- descriptions -->
+                <div class="w-full flex flex-wrap justify-center *:text-center *:lg:text-start gap-x-2.5 gap-y-5 px-5 lg:hidden">
+                    <span class="px-4 py-1 bg-orange-400 shadow-inner shadow-[#fdd995] rounded-[50px] uppercase text-[12px] font-semibold">abilities</span>
+                    <span class="px-4 py-1 bg-orange-400 shadow-inner shadow-[#fdd995] rounded-[50px] uppercase text-[12px] font-semibold">talents</span>
+                    <span class="px-4 py-1 bg-orange-400 shadow-inner shadow-[#fdd995] rounded-[50px] uppercase text-[12px] font-semibold">expertise</span>
+                    <span class="px-4 py-1 bg-orange-400 shadow-inner shadow-[#fdd995] rounded-[50px] uppercase text-[12px] font-semibold">prestige powers</span>
+                    <p class="text-[#808080] text-[14px] w-full mb-8 lg:mb-5 lg:text=[20px] ">Abilities typically focus on giving you powerful active skills that significantly change how you play the game; ranging from damaging abilities like Nova or Rampage, healing abilities like Heal and Totem, and survivability abilities such as Dash and Ghost Walk. Every ability can also be specialised - either subtly changing their effect, or completely revamping it. As you progress through Vault Hunters you get to select the abilities that most suit your playstyle!</p>
+                </div>
             </div>
+
         </section>
     </main>
 </body>
