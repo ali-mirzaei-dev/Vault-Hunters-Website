@@ -63,7 +63,7 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* color: rgb(18, 18, 18); */
-    
+
 }
 
 .mask1 {
@@ -136,4 +136,60 @@ body {
 
 .wheel:has(figure:hover) figure:hover {
     filter: blur(0);
+}
+
+.social {
+
+    >div {
+        transition: 1s;
+
+        >a {
+            position: absolute;
+            color: orange;
+            font-size: 22px;
+            opacity: 0;
+            transition:opacity 1s linear 0.5s,transform 0.4s ease;
+
+            &:first-of-type {
+                top: 112px;
+                left: 80px;
+                rotate: -43deg;
+            }
+
+            &:nth-of-type(2) {
+                top: 96px;
+                left: 104px;
+                rotate: -36deg;
+            }
+
+            &:nth-of-type(3) {
+                top: 122px;
+                left: 112px;
+                rotate: -43deg;
+            }
+
+            &:nth-of-type(4) {
+                top: 105px;
+                left: 134px;
+                rotate: -45deg;
+            }
+
+            &:hover{
+                transform: rotateX(10deg) translateZ(-20px);
+            }
+        }
+    }
+
+    &:hover {
+
+        >div {
+            transform: translateX(-230px);
+
+            &:hover {
+                >a {
+                    opacity: 1;
+                }
+            }
+        }
+    }
 }

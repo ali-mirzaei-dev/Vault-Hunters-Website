@@ -13,11 +13,11 @@
     <!-- npx @tailwindcss/cli -i ./assets/StyleSheet/master.css -o ./assets/StyleSheet/output.css --watch -->
 </head>
 
-<body class="h-[1000vh]">
+<body>
 
     <!--==================#1 HEADER HTML ==================-->
     <!--===================================================-->
-    <header class=" container flex bg-[#171717] w-[95%] rounded-[50px] px-7 justify-between items-center content-center fixed top-5 left-1/2 -translate-x-6/12 duration-75 *:text-white lg:w-[90%] xl:w-3/4 z-10 **:duration-500">
+    <header class=" container flex bg-[#171717] w-[95%] rounded-[50px] px-7 justify-between items-center content-center fixed top-5 left-1/2 -translate-x-6/12 duration-75 *:text-white lg:w-[90%] xl:w-3/4 z-900 **:duration-500">
 
         <div class="flex gap-x-16 h-full items-center ">
             <!--==================#1-1 LOGO HTML ==================-->
@@ -1030,12 +1030,6 @@
         <!--==================#2-7 PLAY NOW HTML ==================-->
         <section class=" w-full flex justify-center items-center bg-[#121212] relative z-2 mask3 border-b border-b-[gray]">
 
-            <!-- bottom left -->
-            <!-- <img class="hidden md:block absolute h-8 top-full left-0 rotate-x-180" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 24'><path fill='%23121212' d='M0,0 L264,0 C292,0 292,24 320,24 L320,28 L0,28 Z'/></svg>" alt=""> -->
-
-            <!-- bottom right -->
-            <!-- <img class="hidden md:block absolute h-8 top-full right-0 rotate-x-180 rotate-y-180" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 24'><path fill='%23121212' d='M0,0 L264,0 C292,0 292,24 320,24 L320,28 L0,28 Z'/></svg>" alt=""> -->
-
             <!-- container -->
             <div class="2xl:container w-full flex flex-wrap justify-center items-center lg:justify-between py-16 lg:px-20">
 
@@ -1073,7 +1067,6 @@
                     </figure>
                 </div>
             </div>
-
         </section>
     </main>
 
@@ -1083,7 +1076,7 @@
 
         <!--==================#3-1 WEBSITES FOOTER HTML ==================-->
         <section class=" w-full flex justify-center items-center bg-[#181818] bg-[url(../Images/dark_textured-1924b825.webp)] bg-center bg-cover **:duration-500">
-            <div class="2xl:container w-full flex justify-between content-start py-20 pt-40 px-5  md:justify-center lg:w-[75%] *:flex-wrap *:content-start">
+            <div class="2xl:container w-full flex justify-between content-start pb-20 pt-18 px-5  md:justify-center lg:w-[75%] 2xl:w-[70%] *:flex-wrap *:content-start">
 
                 <!-- left -->
                 <div class="gap-12 w-1/2 flex justify-start md:w-1/3">
@@ -1101,13 +1094,32 @@
                 </div>
 
                 <!-- right -->
-                <div class="hidden md:flex flex-wrap justify-end md:w-1/3 *:font-bold ">
+                <div class="hidden md:flex flex-wrap justify-end gap-2.5 md:w-1/3 *:font-bold ">
                     <h3 class="text-[#ff9500] text-[29px] uppercase">Vault Hunters</h3>
                     <span class="w-full text-[14px] text-white text-end">Minecraft Modpack v200.0</span>
-                    <a class="text-[14px] text-[#e5e5e5] rounded-full px-2.5 py-1.5 mt-10 bg-[#262626] uppercase" href="">patch notes</a>
+                    <a class="text-[14px] text-[#e5e5e5] rounded-full px-3 py-1 mt-10 bg-[#262626] uppercase hover:shadow-[inset_0px_4px_10px_-4px_rgba(0,0,0,0.3)] hover:translate-y-1 hover:bg-orange-400" href="">patch notes</a>
                 </div>
 
 
+            </div>
+        </section>
+
+        <!--==================#3-2 AUTHORS SECTION HTML ==================-->
+        <section class="w-full flex justify-center h-screen bg-[#181818] bg-[url(../Images/dark_textured-1924b825.webp)] bg-center bg-cover">
+            <div class=" 2xl:container w-full h-70 sm:h-90 md:h-100 lg:h-170 flex justify-center">
+
+                <div class=" h-full rounded-lg relative social">
+                    <img class="relative z-10 w-full h-full object-cover rounded-lg" src="assets/Images/Footer.png" alt="">
+
+                    <div class="absolute -bottom-2 left-0 group">
+                        <img class="group-hover:hidden  w-62.5" src="assets/Images/chest-1190ee14.png" alt="">
+                        <img class="hidden group-hover:block w-62.5" src="assets/Images/chest-open-3f75d5ad.webp" alt="">
+                        <a title="Github" href="https://github.com/ali-mirzaei-dev"><i class="icon"></i></a>
+                        <a title="Instagram" href="https://instagram.com/ali.mirzaei.dev"><i class="icon"></i></a>
+                        <a title="Gmail" href="mailto:ali.mirzaei.kt@gmail.com"><i class="icon"></i></a>
+                        <a title="Linkdin" href="https://www.linkedin.com/in/ali-mirzaei-dev/"><i class="icon"></i></a>
+                    </div>
+                </div>
             </div>
         </section>
     </footer>
