@@ -143,53 +143,25 @@ body {
     >div {
         transition: 1s;
 
-        >a {
-            position: absolute;
-            color: orange;
-            font-size: 22px;
-            opacity: 0;
-            transition:opacity 1s linear 0.5s,transform 0.4s ease;
-
+        >img {
             &:first-of-type {
-                top: 112px;
-                left: 80px;
-                rotate: -43deg;
-            }
-
-            &:nth-of-type(2) {
-                top: 96px;
-                left: 104px;
-                rotate: -36deg;
-            }
-
-            &:nth-of-type(3) {
-                top: 122px;
-                left: 112px;
-                rotate: -43deg;
-            }
-
-            &:nth-of-type(4) {
-                top: 105px;
-                left: 134px;
-                rotate: -45deg;
-            }
-
-            &:hover{
-                transform: rotateX(10deg) translateZ(-20px);
+                transition: transform 1s linear,
+                    opacity 0.000001s linear 1s;
             }
         }
-    }
-
-    &:hover {
 
         >div {
-            transform: translateX(-230px);
 
-            &:hover {
-                >a {
-                    opacity: 1;
+            >a {
+                color: orange;
+                opacity: 0;
+                transition: opacity 0.1s linear 1s, top 0.4s ease 1.7s, left 0.4s ease 1.7s ,font-size 0.4s ease 1.7s;
+
+                &:hover {
+                    transform: rotateX(10deg) translateZ(-20px);
                 }
             }
         }
+
     }
 }
