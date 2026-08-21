@@ -151,14 +151,16 @@ body {
         }
 
         >div {
+                transition: border-top 0.4s linear 1.7s,border-right 0.4s linear 1.7s;
 
             >a {
                 color: orange;
                 opacity: 0;
-                transition: opacity 0.1s linear 1s, top 0.4s ease 1.7s, left 0.4s ease 1.7s ,font-size 0.4s ease 1.7s;
+                transition: opacity 0.1s linear 1s, top 0.4s ease 1.7s, left 0.4s ease 1.7s ,font-size 0.4s ease 1.7s ,transform 0.2s ease;
 
                 &:hover {
                     transform: rotateX(10deg) translateZ(-20px);
+                    text-shadow: 0px 15px 30px orange;
                 }
             }
         }
